@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'FuturaFuturisC';
+    src: url('../fonts/FuturaFuturisC.eot');
     src: url('../fonts/FuturaFuturisC.eot?#iefix') format('embedded-opentype');
     src: url('../fonts/FuturaFuturisC.woff') format('woff');
     
@@ -11,6 +12,7 @@
 
 @font-face {
     font-family: 'FuturaFuturisBlackC';
+    src: url('../fonts/FuturaFuturisBlackC.eot');
     src: url('../fonts/FuturaFuturisBlackC.eot?#iefix') format('embedded-opentype');
     src: url('../fonts/FuturaFuturisBlackC.woff') format('woff');
     
