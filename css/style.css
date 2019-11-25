@@ -245,7 +245,7 @@ li {
 }
 
 .top-baner-wr {
-    width: 60%;
+    width: 55%;
     text-align: right;
     padding-top: 40px;
 }
@@ -535,6 +535,9 @@ input::placeholder {
     .top-baner-wr {
         text-align: right;
         margin-bottom: 10px;
+    }
+    .forma {
+        width: 95%;
     }
 }
 
