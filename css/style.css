@@ -3,9 +3,9 @@
     src: url('../fonts/FuturaFuturisC.eot');
     src: url('../fonts/FuturaFuturisC.eot?#iefix') format('embedded-opentype');
     src: url('../fonts/FuturaFuturisC.woff') format('woff');
-    
+    src: url('../fonts/FuturaFuturisC.woff2') format('woff2');
     src: url('../fonts/FuturaFuturisC.ttf') format('truetype');
-    
+    src: url('../fonts/FuturaFuturisC.svg#webfont') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -15,9 +15,9 @@
     src: url('../fonts/FuturaFuturisBlackC.eot');
     src: url('../fonts/FuturaFuturisBlackC.eot?#iefix') format('embedded-opentype');
     src: url('../fonts/FuturaFuturisBlackC.woff') format('woff');
-    
+    src: url('../fonts/FuturaFuturisBlackC.woff2') format('woff2');
     src: url('../fonts/FuturaFuturisBlackC.ttf') format('truetype');
-    
+    src: url('../fonts/FuturaFuturisBlackC.svg#webfont') format('svg');
     font-weight: 900;
     font-style: normal;
 }
