@@ -459,7 +459,7 @@ input::placeholder {
     }
 }
 
-@media (max-width: 968px) {
+@media screen and (max-width: 969px) {
     .top-menu ul {
         justify-content: flex-end;
     }
@@ -478,7 +478,7 @@ input::placeholder {
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .otzivi-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -518,9 +518,11 @@ input::placeholder {
         font-size: 34px;
 
     }
+
     .uslugi p {
         font-size: 18px;
     }
+
     .banner-wr {
         position: inherit;
     }
@@ -534,23 +536,27 @@ input::placeholder {
         height: 40px;
         font-size: 18px;
         padding: 0 10px;
-        width: 60%;
+        width: 25%;
     }
+
     .forma-wrap {
         height: 590px;
     }
+
     footer {
         height: 590px;
     }
+
     .otzivi__title {
         font-size: 30px;
     }
+
     .top-banner__inst {
         margin: 30px 0;
     }
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media screen and (max-width: 480px) {
     .otzivi-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -582,7 +588,7 @@ input::placeholder {
     }
 
     .forma-title p {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .forma {
@@ -595,7 +601,7 @@ input::placeholder {
     }
 
     .uslugi p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #zapis {
@@ -634,6 +640,7 @@ input::placeholder {
         margin: 0 auto;
         margin-top: 10px;
     }
+
     .banner-wr {
         position: inherit;
     }
@@ -655,5 +662,10 @@ input::placeholder {
 
     .top-banner__inst img {
         left: 46%;
+    }
+
+    .tablichki-item img {
+        width: 125px;
+        height: 125px;
     }
 }
