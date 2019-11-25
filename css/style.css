@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'FuturaFuturisC';
     src: url('../fonts/FuturaFuturisC.eot?#iefix') format('embedded-opentype');
-    src: url(../'fonts/FuturaFuturisC.woff') format('woff');
+    src: url('../fonts/FuturaFuturisC.woff') format('woff');
     
-    src: url(../'fonts/FuturaFuturisC.ttf') format('truetype');
+    src: url('../fonts/FuturaFuturisC.ttf') format('truetype');
     
     font-weight: normal;
     font-style: italic;
