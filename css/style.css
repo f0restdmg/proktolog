@@ -230,7 +230,7 @@ li {
 }
 
 .top-banner {
-    background: url(../images/1.jpg) no-repeat;
+    background: url(../images/3.png) no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -582,6 +582,7 @@ input::placeholder {
 
     .banner-wr {
         position: inherit;
+        width: 60%;
     }
 
     input {
