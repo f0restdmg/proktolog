@@ -5,7 +5,6 @@
     src: url('../fonts/FuturaFuturisC.woff') format('woff');
     src: url('../fonts/FuturaFuturisC.woff2') format('woff2');
     src: url('../fonts/FuturaFuturisC.ttf') format('truetype');
-    
     font-weight: normal;
     font-style: italic;
 }
@@ -17,7 +16,6 @@
     src: url('../fonts/FuturaFuturisBlackC.woff') format('woff');
     src: url('../fonts/FuturaFuturisBlackC.woff2') format('woff2');
     src: url('../fonts/FuturaFuturisBlackC.ttf') format('truetype');
-    
     font-weight: 900;
     font-style: normal;
 }
@@ -491,11 +489,14 @@ input::placeholder {
         grid-template-columns: 1fr 1fr;
         grid-gap: 5vw;
     }
-
+    .top-banner__title h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
     .top-banner {
         background: url(../images/1.jpg) no-repeat;
         background-size: cover;
-        background-position: 0 50%;
+        background-position: 80%;
         width: 100%;
     }
 
