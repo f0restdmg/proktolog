@@ -230,9 +230,9 @@ li {
 }
 
 .top-banner {
-    background: url(../images/1.jpg) no-repeat;
-    background-size: contain;
-    background-position: right center;
+    background: url(../images/3.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 650px;
     position: relative;
@@ -538,39 +538,6 @@ input::placeholder {
     }
 }
 
-@media screen and (max-width: 769px) and (min-width: 660px) {
-    .main-doctor {
-        right: -15%;
-    }
-
-}
-
-@media screen and (max-width: 659px) and (min-width: 481px) {
-    .main-doctor {
-        right: -25%;
-    }
-
-    .top-banner__title h1 {
-        font-size: 33px;
-        line-height: inherit;
-    }
-
-    .top-baner-wr {
-        padding-top: 65px;
-    }
-}
-
-@media screen and (max-width: 480px) and (min-width: 371px) {
-    .main-doctor {
-        right: -20%;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .main-doctor {
-        right: -25%;
-    }
-}
 
 @media screen and (max-width: 769px) {
     .otzivi-items {
@@ -775,5 +742,38 @@ input::placeholder {
 
     .main-doctor {
         width: 300px;
+    }
+}
+@media screen and (max-width: 769px) and (min-width: 660px) {
+    .main-doctor {
+        right: -15%;
+    }
+
+}
+
+@media screen and (max-width: 659px) and (min-width: 481px) {
+    .main-doctor {
+        right: -25%;
+    }
+
+    .top-banner__title h1 {
+        font-size: 33px;
+        line-height: inherit;
+    }
+
+    .top-baner-wr {
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 371px) {
+    .main-doctor {
+        right: -20%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .main-doctor {
+        right: -25%;
     }
 }
