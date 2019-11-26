@@ -2,10 +2,10 @@
     font-family: 'FuturaFuturisC';
     src: url('../fonts/FuturaFuturisC.eot');
     src: url('../fonts/FuturaFuturisC.eot') format('embedded-opentype'),
+        url('../fonts/FuturaFuturisC.svg#FuturaFuturisC') format('svg'),
         url('../fonts/FuturaFuturisC.woff2') format('woff2'),
         url('../fonts/FuturaFuturisC.woff') format('woff'),
-        url('../fonts/FuturaFuturisC.ttf') format('truetype'),
-        url('../fonts/FuturaFuturisC.svg#FuturaFuturisC') format('svg');
+        url('../fonts/FuturaFuturisC.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
