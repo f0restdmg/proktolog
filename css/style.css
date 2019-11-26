@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'FuturaFuturisC';
     src: url('../fonts/FuturaFuturisC.eot');
-    src: url('../fonts/FuturaFuturisC.eot?#iefix') format('embedded-opentype');
-    src: url('../fonts/FuturaFuturisC.woff') format('woff');
-    src: url('../fonts/FuturaFuturisC.woff2') format('woff2');
-    src: url('../fonts/FuturaFuturisC.ttf') format('truetype');
+    src: url('../fonts/FuturaFuturisC.eot') format('embedded-opentype'),
+        url('../fonts/FuturaFuturisC.woff2') format('woff2'),
+        url('../fonts/FuturaFuturisC.woff') format('woff'),
+        url('../fonts/FuturaFuturisC.ttf') format('truetype'),
+        url('../fonts/FuturaFuturisC.svg#FuturaFuturisC') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -12,10 +13,11 @@
 @font-face {
     font-family: 'FuturaFuturisBlackC';
     src: url('../fonts/FuturaFuturisBlackC.eot');
-    src: url('../fonts/FuturaFuturisBlackC.eot?#iefix') format('embedded-opentype');
-    src: url('../fonts/FuturaFuturisBlackC.woff') format('woff');
-    src: url('../fonts/FuturaFuturisBlackC.woff2') format('woff2');
-    src: url('../fonts/FuturaFuturisBlackC.ttf') format('truetype');
+    src: url('../fonts/FuturaFuturisBlackC.eot') format('embedded-opentype'),
+        url('../fonts/FuturaFuturisBlackC.woff2') format('woff2'),
+        url('../fonts/FuturaFuturisBlackC.woff') format('woff'),
+        url('../fonts/FuturaFuturisBlackC.ttf') format('truetype'),
+        url('../fonts/FuturaFuturisBlackC.svg#FuturaFuturisBlackC') format('svg');
     font-weight: 900;
     font-style: normal;
 }
@@ -536,6 +538,7 @@ input::placeholder {
         text-align: right;
         margin-bottom: 10px;
     }
+
     .forma {
         width: 95%;
     }
@@ -636,6 +639,11 @@ input::placeholder {
 
     .top-banner__descr p {
         font-size: 20px;
+        text-align: right;
+    }
+
+    .top-banner__descr span {
+        text-align: right;
     }
 
     .doctor {
@@ -705,7 +713,6 @@ input::placeholder {
 
     .top-baner-wr {
         width: 60%;
-        text-align: left;
         margin-top: 40px;
     }
 
@@ -748,6 +755,7 @@ input::placeholder {
         width: 300px;
     }
 }
+
 @media screen and (max-width: 769px) and (min-width: 660px) {
     .main-doctor {
         right: -15%;
