@@ -6,8 +6,6 @@
         url('../fonts/FuturaFuturisC.woff2') format('woff2'),
         url('../fonts/FuturaFuturisC.woff') format('woff'),
         url('../fonts/FuturaFuturisC.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
 }
 
 @font-face {
@@ -18,8 +16,6 @@
         url('../fonts/FuturaFuturisBlackC.woff') format('woff'),
         url('../fonts/FuturaFuturisBlackC.ttf') format('truetype'),
         url('../fonts/FuturaFuturisBlackC.svg#FuturaFuturisBlackC') format('svg');
-    font-weight: 900;
-    font-style: normal;
 }
 
 * {
